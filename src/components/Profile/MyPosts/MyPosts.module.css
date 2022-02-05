@@ -1,0 +1,12 @@
+/*!*.content {*!*/
+/*!*    grid-area: c;*!*/
+/*!*    background-color: cornflowerblue;*!*/
+/*!*}*!*/
+
+.item {
+color: green;
+}
+
+.item img {
+    width: 50px;
+}

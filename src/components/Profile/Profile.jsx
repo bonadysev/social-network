@@ -1,9 +1,9 @@
 import React from 'react';
 import s from './Profile.module.css';
-import MyPosts from "./MyPosts/Post/MyPosts";
+import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
-    return <>
+    return (
         <div className={s.content}>
             <div>
                 <img
@@ -15,9 +15,9 @@ const Profile = () => {
             <div>
                 ava + decription
             </div>
-            {<MyPosts/>}
+            <MyPosts/>
         </div>
-    </>
+    )
 }
 
 export default Profile;
