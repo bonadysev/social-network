@@ -3,10 +3,18 @@
 /*!*    background-color: cornflowerblue;*!*/
 /*!*}*!*/
 
-.item {
-color: green;
+/*.item {*/
+/*color: green;*/
+/*}*/
+
+/*.item img {*/
+/*    width: 50px;*/
+/*}*/
+
+.postsBlock {
+    padding: 10px;
 }
 
-.item img {
-    width: 50px;
+.posts {
+    margin-top: 10px;
 }
