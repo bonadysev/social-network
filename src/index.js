@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import state from "./redux/state";
+import {addPost} from "./redux/state";
 
 // let posts = [
 //     {id:1, message: 'Hi, how are you?', likesCount:12},
@@ -29,7 +30,7 @@ import state from "./redux/state";
 ReactDOM.render(
     <React.StrictMode>
         {/*<App posts={posts} dialogs={dialogs} messages={messages}/>*/}
-        <App state={state}/>
+        <App state={state} addPost={addPost}/>
     </React.StrictMode>,
     document.getElementById('root')
 );
