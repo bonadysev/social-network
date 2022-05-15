@@ -15,7 +15,7 @@
 
 .content {
     grid-area: c;
-    background-color: burlywood;
+    background-color: darkgray;
 }
 
 
@@ -42,7 +42,7 @@
 }
 
 .App-link {
-    color: #61dafb;
+    color: darkgrey;
 }
 
 @keyframes App-logo-spin {
@@ -56,5 +56,5 @@
 
 .app-wrapper-content {
     grid-area: c;
-    background-color: cornflowerblue;
+    background-color: slategray;
 }
