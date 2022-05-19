@@ -6,7 +6,7 @@ const ProfileInfo = () => {
         <div>
             <div>
                 <img
-                    src='https://www.zastavki.com/pictures/1366x768/2014/_All_that_is_necessary_for_life_088569_24.jpg'
+                    src='http://dgdesign.ru/uploads/posts/2016-09/1475063436_kartinka-dlya-shapki-sayta-tematiki-internet-jf6.jpg'
                     style={{'width': '100%'}}
                     alt={'header'}
                 />
