@@ -32,7 +32,7 @@ const dialogsReducer = (state=initialState, action) => {
             return state;
     }
 
-    return state;
+    return {...state};
 }
 export const sendMessageCreator = () => {
     return {
