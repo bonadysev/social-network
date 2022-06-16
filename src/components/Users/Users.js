@@ -3,11 +3,10 @@ import styles from "./users.module.css"
 import * as axios from 'axios';
 import userPhoto from '../../assets/images/user.png';
 
-class Users extends React.Component{
-constructor(props) {
-    super(props);
-    console.log('new obj')
-        axios.get("https://social-network.samuraijs.com/api/1.0/users").then(response=>{
+class Users extends React.Component {
+
+    componentDidMount() {
+        axios.get("https://social-network.samuraijs.com/api/1.0/users").then(response => {
             this.props.setUsers(response.data.items)
             // props.setUsers([
             //         {
@@ -36,8 +35,7 @@ constructor(props) {
             //         }
             //     ]
         });
-}
-
+    }
 
     render() {
         return <div>
@@ -49,8 +47,12 @@ constructor(props) {
                  </div>
                  <div>
                      {u.followed
-                         ? <button onClick={ () => {this.props.unfollow(u.id) } }>UnFollow</button>
-                         : <button onClick={ () => {this.props.follow(u.id) } }>Follow</button>}
+                         ? <button onClick={() => {
+                             this.props.unfollow(u.id)
+                         }}>UnFollow</button>
+                         : <button onClick={() => {
+                             this.props.follow(u.id)
+                         }}>Follow</button>}
 
                  </div>
              </span>
