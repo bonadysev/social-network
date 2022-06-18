@@ -9,7 +9,7 @@ let Users = (props) => {
         pages.push(i);
     }
     return <div>
-        <div>
+        <div style={{height:"42px",overflow:"hidden"}}>
             {pages.map(p => {
                 return <span className={props.currentPage === p && styles.selectedPage}
                              onClick={(e) => {
