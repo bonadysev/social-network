@@ -91,3 +91,4 @@ export default connect(mapStateToProps, {
     setTotalUsersCount: setTotalUsersCount,
     toggleIsFetching: toggleIsFetching,
 })(UsersContainer);
+
