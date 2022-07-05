@@ -1,10 +1,8 @@
 import React from 'react';
 import Profile from "./Profile";
-import * as axios from "axios";
 import {connect} from "react-redux";
 import {getUserProfile} from "../../redux/profile-reducer";
 import {withCustomWithRouter} from "../../HOC/withCustomWithRouter";
-import {usersAPI} from "../../api/api";
 import {Navigate} from "react-router-dom";
 
 
