@@ -12,7 +12,7 @@ const ProfileInfo = (props) => {
         <div>
             <div>
                 <img
-                    src='http://dgdesign.ru/uploads/posts/2016-09/1475063436_kartinka-dlya-shapki-sayta-tematiki-internet-jf6.jpg'
+                    src='https://sitespectr.ru/wp-content/uploads/2018/11/heder_for_site_0012.jpg'
                     style={{'width': '100%'}}
                     alt={'header'}
                 />
